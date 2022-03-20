@@ -1,0 +1,44 @@
+Arguments: 
+  E:\node.exe C:\Users\H.H\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose
+
+PATH: 
+  E:\Git\mingw64\bin;E:\Git\usr\bin;C:\Users\H.H\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;E:\;E:\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\H.H\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\H.H\AppData\Roaming\npm;E:\PostgreSQL\14\lib;E:\PostgreSQL\14\bin;C:\Users\H.H\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "loginregistierbk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.2",
+      "cors": "^2.8.5",
+      "express": "^4.17.3",
+      "nodemon": "^2.0.15",
+      "path": "^0.12.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
